@@ -1,0 +1,30 @@
+Display the number of milliseconds since January 1, 1970
+
+First create a html element,
+
+<p id ="show"></p>
+
+now create a function,
+
+<script>
+function showDate(){
+var date = new Date();
+var d = date.getTime();
+document.getElementById("show").innerHTML = d;
+}
+</script>
+
+now create a button to show the time,
+
+<button type="button" onclick="showDate()">Check Now</button>
+
+//output
+
+
+1566279722016
+
+
+//
+
+
+Thank you for reading the post. Have a great day!
